@@ -1,3 +1,8 @@
+### 2.0.0
+  - Switch to using new gem syntax in metadata.rb as with Chef Client 14 the
+  chef_gem resource was taking 20 mins per gem. This does mean this cookbook
+  now only supports chef client 14+
+
 ### 1.1.0
   - Support `mock` attributes for cookbook testing.
 
